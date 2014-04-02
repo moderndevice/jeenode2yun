@@ -1,0 +1,31 @@
+<html>                        
+<head>
+<!-- FONTS -->
+<meta charset="UTF-8" />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+<!-- END FONTS -->
+<link rel="stylesheet" type="text/css" href="humidity/style.css" media="screen" />
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript">
+$(function(){
+setInterval(reloadData,1000);
+function reloadData(){
+$("#data").load("humidity/data.html");
+}
+});
+
+// setInterval(function(){
+// parent.location.reload(true);
+// }, 5000);
+</script>
+</head>
+<body>
+<b>Here's the data from the Modern Device dry box, where we keep the <a href="http://moderndevice.com/product/rfm12b-radio/">radio chips</a>:</b><br />
+<br />
+<div id="data"></div>
+
+<p>This is being relayed from a <a href="http://moderndevice.com/product/jeenode-v6-kit/">Jeenode</a> mounted on the dry box to a <a href="http://moderndevice.com/product/jeelink-module-assembled/">Jeelink</a> plugged into an <a href="http://arduino.cc/en/Main/ArduinoBoardYun">Arduino Yun.</a></p>
+
+</body>
+</html>
