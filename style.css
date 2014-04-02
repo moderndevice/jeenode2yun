@@ -1,0 +1,176 @@
+/*
+Theme Name: Modern Device
+Theme URI: http://moderndevice.com	
+Version: 1.0
+Description: Designed by Modern Device, condensed from Mystile by <a href="http://www.woothemes.com">WooThemes</a>.
+Author: Modern Device
+Author URI: http://moderndevice.com
+Tags: moderndevice
+
+	Copyright: (c) 2009-2011 Modern Device and WooThemes.
+	License: GNU General Public License v2.0
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 10.5pt;
+  line-height: 16pt;
+  color: #3c3330;
+  font-family: "Open Sans", sans-serif;
+  
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  padding: 0px 0px 0px 0px;
+  background: #fcfcfc;
+}
+img {
+  vertical-align: bottom;
+  max-width: 100%;
+  height: auto;
+}
+hr {
+  background-color: #e8e4e3;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.618em;
+}
+/* 1.2 Hyperlinks */
+a {
+  color: #2a212e;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: #dd4800;
+  text-decoration: none;
+}
+
+h6 {
+font-family: 'Roboto Slab', sans-serif;
+  color: #363230;
+  margin: 0 0 .618em;
+  font-weight: 700;
+}
+/* 
+font-family: "Share", sans-serif;
+"Bree Serif", sans-serif; weight: normal */
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  font-weight: 700;
+}
+h1 {
+  font-size: 20pt;
+  line-height: 23pt;
+  margin-bottom:6pt!important;
+}
+h2 {
+  font-size: 1.618em;
+  line-height: 1.387em;
+}
+h3 {
+  font-size: 1.387em;
+}
+h4 {
+  font-size: 1em;
+}
+h5 {
+  font-size: 1em;
+}
+h6 {
+  font-size: 0.857em;
+}
+p {
+  -webkit-hyphens: auto;
+  -webkit-hyphenate-character: "\2010";
+  -webkit-hyphenate-limit-after: 1;
+  -webkit-hyphenate-limit-before: 3;
+  -moz-hyphens: auto;
+  orphans: 3;
+  widows: 3;
+}
+ul,
+ol,
+dl,
+p,
+table,
+form,
+pre,
+hr {
+  margin: 0 0 1.618em 0;
+}
+li > ul,
+li > ol {
+  margin: 0 0 0 1.618em;
+}
+dl dt {
+  font-weight: bold;
+}
+dl dd {
+  margin-bottom: 1.618em;
+}
+blockquote {
+  quotes: "\201C" "\201D";
+  position: relative;
+  color: #39302d;
+}
+blockquote:before {
+  content: "\201C";
+  font-family: sans-serif;
+  font-size: 3.631em;
+  position: absolute;
+  top: -0.327em;
+  left: -0.53em;
+  color: #c6c2c1;
+}
+/* 1.3.1 Typefaces */
+@font-face {
+  font-family: 'WebSymbolsRegular';
+  src: url("typefaces/websymbols-regular-webfont.eot");
+  src: url("typefaces/websymbols-regular-webfont.eot?#iefix") format('embedded-opentype'), url("typefaces/websymbols-regular-webfont.woff") format('woff'), url("typefaces/websymbols-regular-webfont.ttf") format('truetype'), url("typefaces/websymbols-regular-webfont.svg#WebSymbolsRegular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url("typefaces/icomoon.eot");
+  src: url("typefaces/icomoon.eot?#iefix") format('embedded-opentype'), url("typefaces/icomoon.woff") format('woff'), url("typefaces/icomoon.ttf") format('truetype'), url("typefaces/icomoon.svg#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+}
+/* 1.4 Tables */
+table {
+  width: 100%;
+  font-size: .857em;
+  margin-bottom: 2.618em;
+}
+table th,
+table td {
+  border-bottom: 1px solid #e8e4e3;
+  padding: 1em;
+  vertical-align: top;
+  text-align: left;
+}
+table th {
+  text-transform: uppercase;
+  border-bottom: 4px double #e8e4e3;
+}
+table tr th:first-child,
+table tr td:first-child {
+  padding-left: 0;
+}
+table tr th:last-child,
+table tr td:last-child {
+  padding-right: 0;
+}
