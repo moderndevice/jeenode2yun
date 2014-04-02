@@ -10,6 +10,7 @@ Getting started:
  * Plug the Jeelink into the Yun
  * Make a directory for your project in /www/, default is /www/humidity
  * Copy index.html, upload.py and style.css to /www/humidity/ on the yun
+ * chmod +x upload.py
  * If you want to change the directory, change it in index.html and rc.local
  * Copy rc.local to /etc/rc.local on the yun to add the script to startup
  * Reboot the yun
