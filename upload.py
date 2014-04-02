@@ -3,7 +3,7 @@
 # We have a jeelink on /dev/ttyUSB0 sending us data like "2580 7183 16132", which we divide by 100 to
 # get humidity, temperature in celsius, and temperature in fahrenheit
 
-import serial # opkg install pyserial if you don't have it
+import serial # Load pyserial
 ser = serial.Serial('/dev/ttyUSB0', 57600, timeout=3) # Open the serial port at 57600
 
 while True: # Loop forever
