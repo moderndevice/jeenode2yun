@@ -30,12 +30,7 @@ void setup() {
 }
 
 void loop() {
-//  if (humidity.GetHumidity() < 10) {
-//    digitalWrite(Fan, HIGH);
-//  }
-//  if (humidity.GetHumidity() > 10) {
-//    digitalWrite(Fan, LOW);
-//  }
+
   int data[3];
    
   lcd.setCursor(0,0);
