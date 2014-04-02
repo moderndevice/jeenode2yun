@@ -8,7 +8,7 @@ Getting started:
  * Flash your Jeenode with a humidity sensor on it with the sketch in Jeenode/
  * Flash your Jeelink with the sketch in Jeelink
  * Plug the Jeelink into the Yun
- * Copy index.html to /www/humidity/ on the yun
+ * Copy index.html to /www/humidity/ on the yun (feel free to change the directory and update rc.local)
  * Copy upload.py to /www/humidity/ on the yun
  * Copy rc.local to /etc/rc.local on the yun to add the script to startup
  * Reboot the yun

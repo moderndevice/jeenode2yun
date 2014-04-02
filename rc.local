@@ -2,7 +2,7 @@
 # the system init finished. By default this file does nothing.
 
 
-/www/humidity/upload.py
+cd /www/humidity/ && ./upload.py # We put it in /www/humidity
 wifi-live-or-reset
 
 exit 0
